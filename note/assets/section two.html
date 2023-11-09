@@ -1,0 +1,391 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>section One</title>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning HTML with MR JOSEPH</title>
+    <link rel="stylesheet" href="sections.css">
+  </head>
+  
+  <body>
+     <!---Big Heading------->
+   
+  
+  <div class="heading-one">
+    <h1> <a href="../index.html"><img src="henjo_logo_icon.png" alt="logo" class="logo"></a> </h1>
+    <h4>learning website development with mr joseph from henJo code academy</h4>
+  </div>
+  <div class="top-button">
+    <button class="bt-next" > <a href="section one.html" class="next">&lt; Previous</a> </button>
+    <button class="bt-next"> <a href="#" class="next">Next &gt;</a></button>  
+  </div>
+   <!----ANCHOR TAG-->
+   <div class="section-1">
+      
+  <div class="nav col1">
+      <ul class="nav-link" >
+        <li><a href="section one.html"> Introduction </a></li>
+        <li> <a href="section two.html"><i class="fas fa-clock fa-xs fa-spin"></i> Elements And Tags</a></li>
+        <li><a href="#"><i class="fas fa-heart fa-xs"></i> Learn HTML Section Three</a></li>
+        <li><a href="#"><i class="fas fa-dog fa-xs"></i>  Learn HTML Section Four</a></li>
+        <li><a href="#"><i class="fas fa-dog fa-xs"></i>  Learn HTML Section Five</a></li>
+        <li><a href="#"><i class="fas fa-dog fa-xs"></i>  Learn HTML Section Six</a></li>
+      </ul>
+    </div>
+    
+     <!--PARAGRAPH-->
+     <div class="p-4 col2">
+      <h1 class="cap-1">HTML Elements</h1>
+    <h4 class="subtitle">An HTML element usually consists of a start tag and an end tag, with the content inserted in between:</h4>
+
+    <h4 class="text"><span class="red">&lt;tagname&gt;</span>Content goes here..... <span class="red">&lt;/tagname&gt;</span></h4>
+    <p class="text">The HTML element is everything from the start tag to the end tag. <br> Example is shown below:</p>
+    <h4 class="text"><span class="red">&lt;p&gt;</span> MY FIRST PARAGRAPH <span class="red">&lt;/p&gt;</span></h4>
+    
+
+      <h1>Elements Pattern</h1>
+      <img src="elements-img.png" alt="" class="img-1000" >
+      <pre>
+        Note:
+         * HTML elements with no content are called empty elements. 
+           Empty elements do not have an end tag, such as the element (which indicates a line break).
+         * There also elements known as the self closing elements.
+           These type of element open and close within themselves, 
+           their opening and closing tags are combined in one.
+           An example of such element is the Image (img) element.
+           E.g &lt;img src="" alt=""/&gt;
+      </pre>
+
+      <h1>HTML Tags</h1>
+      <h4 class="subtitle">HTML tags are element names surrounded by angle brackets:</h4>
+      <div class="silver">
+        &lt;tagname&gt;content goes here...&lt;/tagname&gt;
+      </div>
+      <ul class="definition">
+        
+        <li> HTML tags normally come in <strong>pairs</strong> like &lt;h1&gt; and &lt;/h1&gt; </li>
+        
+        <li> The first tag in a pair is the <strong>start tag or opening</strong>, the second tag is the <strong>end tag or closing</strong></li>
+        <li> The end tag is written like the start tag, but with a <strong>forward slash</strong> inserted before the tag name</li>
+      </ul>
+      
+      <h1>Self-closing Tags or Empty Tags</h1>
+      <h4 class="subtitle"> They are tags that open and close within the opening tag. They have no closing tag. They may not have any content</h4>
+      <p class="text"> The contents of this type of tag is written within the same opening tag followed by a backwards slash.<br>
+      some examples of such tags are: 
+        <ol>
+          <li>
+            The Image Tag :
+           &lt;img src=" " alt=" " &gt; 
+          </li>
+          <li>
+            The Link Tag : &lt;link rel=" " href=" "/&gt;
+          </li>
+          <li>
+            The Meta : &lt;meta charset="UTF-8"&gt;
+          <li>
+            The Input Tag : &lt;input type=" " Placeholder=" " Value=" " /&gt;
+          </li>
+          <li>
+          The Break Tag : &lt;br /&gt;
+          </li>
+          <li>
+            The Horizontal Rule Tag : &lt;hr/&gt;
+          </li>
+          <li>
+            The Meta : &lt;meta charset="UTF-8"&gt;
+          <li>
+            The Input Tag : &lt;input type=" " Placeholder=" " Value=" " /&gt;
+          </li>
+          <li>The embed Tag : &lt;embed src="" type=""/&gt; </li>
+           <li>The Param Tag : &lt;param name="" value=""/&gt;</li>
+           <li> The Column Tag: &lt;col&gt;</li>
+      </ol>
+      <p class="text">And so On...</p>
+  </p>
+  
+  <h1>BASIC HTML TAGS</h1>
+  <p class="steps"> HTML &lt;html&gt; Tag</p>
+  <p class="text">
+      The &lt;html&gt; ag tells the browser that this is an HTML document.
+    <br>
+      The &lt;html&gt; tag represents the root of an HTML document.
+    <br> 
+    The &lt;html&gt; tag is the container for all other HTML elements (except for the &lt;&excl;DOCTYPE&gt; tag) 
+    <br>
+    The main child-elements of the &lt;html&gt; tag are the head and body elememts, written within the following tags: 
+      <ul class="definition">
+        <li>&lt;head&gt; tag</li>
+        <li>&lt;body&gt; tag</li>
+      </ul>
+      </p>
+
+
+  <p class="steps"> HTML head Tag</p>
+  <p class="text">
+      The &lt;head&gt; element is a container for all the head elements.
+    <br>
+      The &lt;head&gt; element can include a title for the document, scripts, styles, meta information, and more.
+    <br> 
+      The following elements can go inside the &lt;head&gt; element:  
+      <ul class="definition">
+        <li>&lt;title&gt;&lt;/title&gt;  (this element is required in an HTML document)</li>
+        <li>&lt;style&gt;&lt;/style&gt;</li>
+        <li>&lt;base&gt;</li>
+        <li>&lt;link&gt;</li>
+        <li>&lt;meta&gt;</li>
+        <li>&lt;script&gt;&lt;/script&gt;</li>
+        <li>&lt;noscript&gt;&lt;/noscript&gt;</li>
+      </ul>
+      </p>
+      <p class="steps"> HTML body Tag</p>
+      <p class="text">
+          The &lt;body&gt; tag defines the document's body..
+        <br>
+          The &lt;body&gt; element contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, etc.
+        <br> 
+     </p>
+     <div class="code">
+      <pre>
+       
+            <span class="green2">
+            &lt;html&gt;
+                &lt;head&gt;
+                  &lt;title&gt;Title of the document&lt;/title&gt;
+                &lt;/head&gt;
+
+                &lt;body&gt;
+                    The content of the document......
+                &lt;/body&gt;
+
+             &lt;/html&gt;
+            </span>
+  
+              <strong class="run">NOTE : Copy and run the code to see the output</strong>
+  
+      </pre>
+    </div>
+    <pre>
+      <strong>Note: </strong>
+      1. The Head and Body Elements are contained inside the html Element.
+      2. The Head Element contains all the meta element, links, internal CSS style, and the title element,
+      3. While the body element contains every other html elements apart from the ones contained be the head element.
+      4. Only codes written within the body element are displayed by the browser.
+      5. Be Reminded that, An Element is comprised of both the opening tag and the closing tag, with the contents inbetween both tags.
+    
+    </pre>
+
+
+
+  <p class="steps">HTML Headings</p>
+  <h4 class="subtitle">
+    HTML headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags.
+  </h4>
+
+  <p class="text">
+    &lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading: 
+  </p>
+  <div class="code">
+    <pre>
+     
+          <span class="green2">&lt;h1&gt;</span> This is Heading 1 <span class="green2">&lt;/h1&gt;</span>
+          <span class="green2">&lt;h2&gt;</span> This is Heading 2 <span class="green2">&lt;/h2&gt;</span>
+          <span class="green2">&lt;h3&gt;</span> This is Heading 3 <span class="green2">&lt;/h3&gt;</span>
+          <span class="green2">&lt;h4&gt;</span> This is Heading 4 <span class="green2">&lt;/h4&gt;</span>
+          <span class="green2">&lt;h5&gt;</span> This is Heading 5 <span class="green2">&lt;/h5&gt;</span>
+          <span class="green2">&lt;h6&gt;</span> This is Heading 6 <span class="green2">&lt;/h6&gt;</span>
+
+            <strong class="run">NOTE : Copy and run the code to see the output</strong>
+
+    </pre>
+  </div>
+  <p class="steps">HTML Paragraphs</p>
+  <h4 class="subtitle">HTML paragraphs are defined with the &lt;p&gt; tag:</h4>
+  <div class="code">
+    <pre>
+     
+          <span class="green2">&lt;p&gt;</span> This is a Paragraph <span class="green2">&lt;/p&gt;</span>
+          <span class="green2">&lt;p&gt;</span> This is another paragraph <span class="green2">&lt;/p&gt;</span>
+
+            <strong class="run">NOTE : Copy and run the code to see the output</strong>
+
+    </pre>
+  </div>
+
+  <p class="steps">HTML Anchor Link Tag</p>
+  <h4 class="subtitle">HTML links are defined with the &lt;a&gt; tag:  </h4>
+  <div class="code">
+    <pre>
+     
+          <span class="green2">&lt;a href="https://google.com"&gt;</span> This is a Link <span class="green2">&lt;/a&gt;</span>
+         
+            <strong class="run">NOTE : Copy and run the code to see the output</strong>
+
+    </pre>
+  </div>
+  <p class="text">
+    The link's destination is specified in the <span class="red">href</span> attribute. 
+<br>
+    Attributes are used to provide additional information about HTML elements.
+<br>
+    You will learn more about attributes in a later section.
+  </p>
+
+  <p class="steps">HTML Images</p>
+  <h4 class="subtitle">HTML images are defined with the &lt;img&gt; tag:  </h4>
+  <div class="code">
+    <pre>
+     
+          <span class="green2">&lt;img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142"/&gt;</span>
+         
+            <strong class="run">NOTE : Copy and run the code to see the output</strong>
+
+    </pre>
+  </div>
+  <p class="text">
+    The source file (
+       <span class="red">src</span>
+    ), alternative text (
+      <span class="red">alt</span>
+    ), <span class="red">width</span>, and <span class="red">height</span> are provided as attributes:
+  </p>
+
+  <p class="steps"> HTML Buttons </p>
+  <h4 class="subtitle">HTML buttons are defined with the &lt;button&gt; tag:  </h4>
+  <div class="code">
+    <pre>
+     
+          <span class="green2">&lt;button&gt; Click Me &lt;/button&gt;</span>
+         
+            <strong class="run">NOTE : Copy and run the code to see the output</strong>
+
+    </pre>
+  </div>
+
+  <p class="steps"> HTML Lists </p>
+  <h4 class="subtitle">HTML lists are defined with the &lt;ul&gt; tag (unordered/bullet list) or the &lt;ol&gt; tag (ordered/numbered list) , followed by the &lt;li&gt; tags (list items):  </h4>
+  <div class="code">
+    <h2>Unorder or bullet list</h2>
+    <pre>
+     
+          <span class="green2">
+            &lt;ul&gt;
+              &lt;li&gt;Item 1&lt;/li&gt; 
+              &lt;li&gt;Item 2&lt;/li&gt;
+              &lt;li&gt;Item 3&lt;/li&gt;
+              &lt;li&gt;Item 4&lt;/li&gt;
+            &lt;/ul&gt;
+          </span>
+         
+            <strong class="run">NOTE : Copy and run the code to see the output</strong>
+
+    </pre>
+  </div>
+  <div class="code">
+    <h2>Ordered or numbered list</h2>
+    <pre>
+     
+          <span class="green2">
+            &lt;ol&gt;
+              &lt;li&gt;Item 1&lt;/li&gt; 
+              &lt;li&gt;Item 2&lt;/li&gt;
+              &lt;li&gt;Item 3&lt;/li&gt;
+              &lt;li&gt;Item 4&lt;/li&gt;
+            &lt;/ol&gt;
+          </span>
+         
+            <strong class="run">NOTE : Copy and run the code to see the output</strong>
+
+    </pre>
+  </div>
+
+  <p class="steps"> HTML Strong Tag </p>
+  <h4 class="subtitle">The &lt;strong&gt; tag, specifies bold text without any extra importance. in Previous versions of HTML the &lt;b&gt; tag was used to bold text but this code is now obselet. Although it still works using &lt;b&gt; to create bold text may result in an error at runtime:  </h4>
+  <div class="code">
+    <pre>
+     
+          <span class="green2">&lt;p&gt; This is normal text - &lt;strong&gt; and this is bold text&lt;/strong&gt; &lt;/p&gt;</span>
+         
+            <strong class="run">NOTE : Copy and run the code to see the output</strong>
+
+    </pre>
+  </div>
+  <div class="code">
+    <h2>Using the &lt;b&gt; tag to create bold text</h2>
+    <pre>
+     
+          <span class="green2">&lt;p&gt; This is normal text - &lt;b&gt; and this is bold text&lt;/b&gt; &lt;/p&gt;</span>
+         
+            <strong class="run">NOTE : Copy and run the code to see the output</strong>
+
+    </pre>
+  </div>
+
+  <p class="steps"> HTML Emphasize Tag </p>
+  <h4 class="subtitle">The &lt;em&gt; tag, specifies italic text. in Previous versions of HTML the &lt;i&gt; tag was used to italic text but this code is now obselet. Although it still works using &lt;i&gt; to create italic text may result in an error at runtime:  </h4>
+  <div class="code">
+    <pre>
+     
+          <span class="green2">&lt;p&gt; This is normal text - &lt;em&gt; and this is italic text&lt;/em&gt; &lt;/p&gt;</span>
+         
+            <strong class="run">NOTE : Copy and run the code to see the output</strong>
+
+    </pre>
+  </div>
+  <div class="code">
+    <h2>Using the &lt;i&gt; to create italic text</h2>
+    <pre>
+     
+          <span class="green2">&lt;p&gt; This is normal text - &lt;i&gt; and this is italic text&lt;/i&gt; &lt;/p&gt;</span>
+         
+            <strong class="run">NOTE : Copy and run the code to see the output</strong>
+
+    </pre>
+  </div>
+
+
+
+
+
+
+
+
+
+<div class="page-nav">
+  <button class="bt-next" > <a href="section one.html" class="next">&lt; Previous</a> </button>
+  <button class="bt-next"> <a href="#" class="next">Next &gt;</a></button>
+  
+
+</div>
+     </div>
+   </div>
+   <div class="footer">
+        <div>
+          <h5 class="text-light text-center">Follow us</h5>
+          <ul style="border: 4px solid rgb(53, 52, 52);" class="mx-5">
+              <li class="s-item"><a href="#"><i class="bi bi-youtube social"></i></a> 
+                  <a href="#"><i class="bi bi-facebook social"></i></a>
+                  <a href="#"><i class="bi bi-telegram social"></i></a>
+              </li>
+              <li class="s-item"><a href="#"><i class="bi bi-instagram social"></i></a> 
+                  <a href="#"><i class="bi bi-twitter social"></i></a>
+                  <a href="#"><i class="bi bi-github social"></i></a>
+              </li>
+          </ul>
+        </div>
+        <div>
+          <hr>
+          <marquee behavior="sliding" direction="left" width="100%" >Learn how to code like a pro. Learn with ease in our one on one tutorial classes. Learn from the best, navigate the deep sea of web development with us. Reach us through any of our social media handles above or call us on 09012774493</marquee>
+          <hr>
+        </div>
+   </div>
+</body>
+</html>
+</body>
+</html>
